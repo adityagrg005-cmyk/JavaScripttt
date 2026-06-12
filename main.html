@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>JavaScript Programming - Web Development Learning Hub</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#home"><span>&lt;</span>Aditya <span style="color:var(--primary)">Gurung</span><span>/&gt;</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#html-section">HTML</a></li>
+        <li class="nav-item"><a class="nav-link" href="#css-section">CSS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#javascript-section">JavaScript</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+    <h1><span>JavaScript</span> — Bringing Life to Web</h1>
+    <p class="lead">JavaScript is the programming language of the web, adding interactivity, dynamic behaviour, and powerful functionality to websites and applications.</p>
+    <div>
+      <span class="hero-badge">Interactive</span>
+      <span class="hero-badge">Dynamic</span>
+      <span class="hero-badge">Event-Driven</span>
+      <span class="hero-badge">Versatile</span>
+    </div>
+  </div>
+</section>
+
+<!-- HTML SECTION -->
+<section id="html-section" style="background:var(--dark);">
+  <div class="container">
+    <div class="section-divider"></div>
+    <h2 class="section-title">HTML</h2>
+    <p class="section-sub">HTML is the structure of a web page. It defines headings, paragraphs, images, links, and other content.</p>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>What it is</h6></div>
+          <div class="card-body-custom">
+            <p>HTML stands for HyperText Markup Language. It gives web pages their basic layout and content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>How it works</h6></div>
+          <div class="card-body-custom">
+            <p>Browsers read HTML tags and turn them into visible elements such as buttons, text, and images.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>Example</h6></div>
+          <div class="card-body-custom">
+<pre><code>&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;a href="https://example.com"&gt;Visit&lt;/a&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS SECTION -->
+<section id="css-section">
+  <div class="container">
+    <div class="section-divider"></div>
+    <h2 class="section-title">CSS</h2>
+    <p class="section-sub">CSS is used to style web pages by controlling colours, spacing, layouts, and typography.</p>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>What it is</h6></div>
+          <div class="card-body-custom">
+            <p>CSS stands for Cascading Style Sheets. It makes websites look attractive and organised.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>How it works</h6></div>
+          <div class="card-body-custom">
+            <p>CSS targets HTML elements and applies visual rules like font size, background colour, and margins.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>Example</h6></div>
+          <div class="card-body-custom">
+<pre><code>h1 {
+  color: gold;
+  text-align: center;
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDAMENTALS -->
+<section id="javascript-section" style="background:var(--dark);">
+  <div class="container">
+    <div class="section-divider"></div>
+    <h2 class="section-title">JavaScript Fundamentals</h2>
+    <p class="section-sub">Learn the core concepts that make JavaScript the language of modern web development.</p>
+
+    <div class="row g-4 mb-4">
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>What it is</h6></div>
+          <div class="card-body-custom">
+            <p>JavaScript is the programming language that makes web pages interactive by responding to clicks, input, and events.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>How it works</h6></div>
+          <div class="card-body-custom">
+            <p>JavaScript runs in the browser, reads your code, and changes the page dynamically based on user actions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="js-card">
+          <div class="card-header-custom"><h6>Example</h6></div>
+          <div class="card-body-custom">
+<pre><code>const name = 'Asha';
+console.log(`Hello, ${name}!`);</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <!-- Variables & Functions -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Variables &amp; Functions</h6>
+          </div>
+          <div class="card-body-custom">
+<pre><code><span class="cm">// Variables</span>
+<span class="kw">let</span> <span class="var-c">name</span> = <span class="str">"Sanjog Thapa"</span>;
+<span class="kw">const</span> <span class="var-c">age</span> = <span class="num">22</span>;
+<span class="kw">var</span> <span class="var-c">course</span> = <span class="str">"CET138"</span>;
+
+<span class="cm">// Function</span>
+<span class="kw">function</span> <span class="fn">greetStudent</span>(studentName) {
+    <span class="kw">return</span> <span class="str">`Hello, ${studentName}! Welcome.`</span>;
+}
+
+<span class="cm">// Arrow Function</span>
+<span class="kw">const</span> <span class="fn">calculateGrade</span> = (score) => {
+    <span class="kw">return</span> score >= <span class="num">90</span> ? <span class="str">'A'</span> : score >= <span class="num">80</span> ? <span class="str">'B'</span> : <span class="str">'C'</span>;
+};</code></pre>
+            <button class="btn-run" onclick="runVarDemo()"><i class="fas fa-play"></i> Run Code</button>
+            <div class="output-box" id="varOutput"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrays & Objects -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Arrays &amp; Objects</h6>
+          </div>
+          <div class="card-body-custom">
+<pre><code><span class="cm">// Array</span>
+<span class="kw">const</span> <span class="var-c">technologies</span> = [<span class="str">'HTML'</span>, <span class="str">'CSS'</span>, <span class="str">'JS'</span>];
+
+<span class="cm">// Object</span>
+<span class="kw">const</span> <span class="var-c">student</span> = {
+    name: <span class="str">'Sanjog Thapa'</span>,
+    college: <span class="str">'ISMT College'</span>,
+    course: <span class="str">'CET138 Full Stack'</span>,
+    skills: technologies,
+    introduce: <span class="kw">function</span>() {
+        <span class="kw">return</span> <span class="str">`I'm ${this.name} from ${this.college}`</span>;
+    }
+};</code></pre>
+            <button class="btn-run" onclick="runObjDemo()"><i class="fas fa-play"></i> Run Code</button>
+            <div class="output-box" id="objOutput"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOM MANIPULATION -->
+<section>
+  <div class="container">
+    <div class="section-divider"></div>
+    <h2 class="section-title">DOM Manipulation</h2>
+    <p class="section-sub">Learn how to interact with HTML elements using JavaScript.</p>
+
+    <div class="row g-4">
+      <!-- Element Selection -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Element Selection</h6>
+          </div>
+          <div class="card-body-custom">
+<pre><code><span class="cm">// Select elements</span>
+<span class="kw">const</span> <span class="var-c">title</span> = <span class="var-c">document</span>.<span class="fn">getElementById</span>(<span class="str">'myTitle'</span>);
+
+<span class="cm">// Change content</span>
+title.textContent = <span class="str">'New Title'</span>;
+title.innerHTML = <span class="str">'&lt;strong&gt;Bold Title&lt;/strong&gt;'</span>;
+
+<span class="cm">// Change styles</span>
+title.style.color = <span class="str">'blue'</span>;
+title.classList.<span class="fn">add</span>(<span class="str">'highlight'</span>);</code></pre>
+            <div class="demo-box">
+              <div id="domTitle">Original Title</div>
+              <button class="btn-demo btn-primary-custom" onclick="domChangeText()">Change Text</button>
+              <button class="btn-demo btn-warning-custom" onclick="domChangeColor()">Change Color</button>
+              <button class="btn-demo btn-secondary-custom" onclick="domReset()">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creating Elements -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Creating Elements</h6>
+          </div>
+          <div class="card-body-custom">
+<pre><code><span class="cm">// Create new element</span>
+<span class="kw">const</span> <span class="var-c">newDiv</span> = <span class="var-c">document</span>.<span class="fn">createElement</span>(<span class="str">'div'</span>);
+newDiv.className = <span class="str">'alert alert-success'</span>;
+newDiv.innerHTML = <span class="str">'&lt;strong&gt;Success!&lt;/strong&gt;'</span>;
+
+<span class="cm">// Add to page</span>
+<span class="var-c">document</span>.body.<span class="fn">appendChild</span>(newDiv);
+
+<span class="cm">// Remove after 3s</span>
+<span class="fn">setTimeout</span>(() => newDiv.<span class="fn">remove</span>(), <span class="num">3000</span>);</code></pre>
+            <div class="demo-box">
+              <div id="dynamicContainer"></div>
+              <button class="btn-demo btn-success-custom" onclick="createElement()">Create Element</button>
+              <button class="btn-demo btn-danger-custom" onclick="removeAll()">Remove All</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENT HANDLING -->
+<section style="background:var(--dark);">
+  <div class="container">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Event Handling</h2>
+    <p class="section-sub">Make your websites interactive by responding to user actions.</p>
+
+    <div class="row g-4">
+      <!-- Click Events -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Click Events</h6>
+          </div>
+          <div class="card-body-custom">
+<pre><code><span class="cm">// Add event listener</span>
+button.<span class="fn">addEventListener</span>(<span class="str">'click'</span>, <span class="kw">function</span>() {
+    alert(<span class="str">'Button clicked!'</span>);
+});
+
+button.<span class="fn">addEventListener</span>(<span class="str">'mouseenter'</span>, () => {
+    button.style.backgroundColor = <span class="str">'red'</span>;
+});
+
+button.<span class="fn">addEventListener</span>(<span class="str">'mouseleave'</span>, () => {
+    button.style.backgroundColor = <span class="str">''</span>;
+});</code></pre>
+            <div class="demo-box" style="text-align:center;">
+              <button id="clickBtn">Interactive Button</button>
+              <div id="clickCounter">Clicks: <span id="clickCount">0</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Events -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Form Events</h6>
+          </div>
+          <div class="card-body-custom">
+<pre><code><span class="cm">// Form validation</span>
+form.<span class="fn">addEventListener</span>(<span class="str">'submit'</span>, (e) => {
+    e.<span class="fn">preventDefault</span>();
+    <span class="kw">const</span> <span class="var-c">name</span> = <span class="var-c">document</span>.<span class="fn">getElementById</span>(<span class="str">'name'</span>).value;
+    <span class="kw">if</span> (name.length < <span class="num">2</span>) {
+        alert(<span class="str">'Name too short!'</span>);
+        <span class="kw">return</span>;
+    }
+    alert(<span class="str">'Form submitted!'</span>);
+});</code></pre>
+            <div class="demo-box">
+              <input class="form-control-custom" id="formName" type="text" placeholder="Your name"/>
+              <input class="form-control-custom" id="formEmail" type="email" placeholder="Email address"/>
+              <button class="btn-demo btn-primary-custom" onclick="submitForm()">Submit</button>
+              <div class="form-msg" id="formMsg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERACTIVE PROJECTS -->
+<section>
+  <div class="container">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Interactive Projects</h2>
+    <p class="section-sub">Practice JavaScript with these beginner-friendly projects.</p>
+
+    <div class="row g-4">
+      <!-- Calculator -->
+      <div class="col-md-6 col-lg-4">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Simple Calculator</h6>
+          </div>
+          <div class="card-body-custom">
+            <div class="calc-display">
+              <div class="calc-expr" id="calcExpr"></div>
+              <div class="calc-val" id="calcVal">0</div>
+            </div>
+            <div class="calc-grid">
+              <button class="calc-btn cb-clr" onclick="calcInput('C')">C</button>
+              <button class="calc-btn cb-op" onclick="calcInput('/')">/</button>
+              <button class="calc-btn cb-op" onclick="calcInput('*')">×</button>
+              <button class="calc-btn cb-bk" onclick="calcBackspace()">←</button>
+              <button class="calc-btn cb-num" onclick="calcInput('7')">7</button>
+              <button class="calc-btn cb-num" onclick="calcInput('8')">8</button>
+              <button class="calc-btn cb-num" onclick="calcInput('9')">9</button>
+              <button class="calc-btn cb-op" onclick="calcInput('-')">−</button>
+              <button class="calc-btn cb-num" onclick="calcInput('4')">4</button>
+              <button class="calc-btn cb-num" onclick="calcInput('5')">5</button>
+              <button class="calc-btn cb-num" onclick="calcInput('6')">6</button>
+              <button class="calc-btn cb-op" onclick="calcInput('+')">+</button>
+              <button class="calc-btn cb-num" onclick="calcInput('1')">1</button>
+              <button class="calc-btn cb-num" onclick="calcInput('2')">2</button>
+              <button class="calc-btn cb-num" onclick="calcInput('3')">3</button>
+              <button class="calc-btn cb-eq" onclick="calcEquals()" style="grid-row:span 2">=</button>
+              <button class="calc-btn cb-num" style="grid-column:span 2" onclick="calcInput('0')">0</button>
+              <button class="calc-btn cb-num" onclick="calcInput('.')">.</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- To-Do List -->
+      <div class="col-md-6 col-lg-4">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>To-Do List</h6>
+          </div>
+          <div class="card-body-custom">
+            <div class="todo-input-row">
+              <input class="todo-input" id="todoInput" type="text" placeholder="Add a task..." onkeydown="if(event.key==='Enter') addTodo()"/>
+              <button class="todo-add-btn" onclick="addTodo()">Add</button>
+            </div>
+            <ul class="todo-list" id="todoList"></ul>
+            <div class="todo-count">Total tasks: <span id="todoCount">0</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Color Changer -->
+      <div class="col-md-6 col-lg-4">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Background Color Changer</h6>
+          </div>
+          <div class="card-body-custom">
+            <div class="color-box" id="colorBox">Click a button to change my colour!</div>
+            <div class="color-btns">
+              <button style="background:#e94560;color:#fff;" onclick="setColor('#e94560','Red')">Red</button>
+              <button style="background:#00d4aa;color:#1a1a2e;" onclick="setColor('#00d4aa','Green')">Green</button>
+              <button style="background:#3b82f6;color:#fff;" onclick="setColor('#3b82f6','Blue')">Blue</button>
+              <button style="background:#f7df1e;color:#1a1a2e;" onclick="setColor('#f7df1e','Yellow')">Yellow</button>
+              <button style="background:#06b6d4;color:#1a1a2e;" onclick="setColor('#06b6d4','Cyan')">Cyan</button>
+              <button style="background:#8b5cf6;color:#fff;" onclick="randomColor()">Random</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text Analyzer -->
+      <div class="col-md-6">
+        <div class="js-card">
+          <div class="card-header-custom">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <h6>Text Analyzer</h6>
+          </div>
+          <div class="card-body-custom">
+            <textarea class="text-area-custom" id="analyzerText" rows="5" placeholder="Type or paste text here to analyze it..." oninput="analyzeText()"></textarea>
+            <div class="analyzer-stats">
+              <div class="stat-box"><div class="num-big" id="statChars">0</div><div class="lbl">Characters</div></div>
+              <div class="stat-box"><div class="num-big" id="statWords">0</div><div class="lbl">Words</div></div>
+              <div class="stat-box"><div class="num-big" id="statLines">0</div><div class="lbl">Lines</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h6>Sanjog Thapa</h6>
+        <p>Student at ISMT College, pursuing CET138 Full Stack Development. Passionate about creating educational web experiences.</p>
+        <p><i class="fas fa-envelope" style="color:var(--primary);margin-right:6px;"></i> thapasanjog76@gmail.com</p>
+        <p><i class="fas fa-school" style="color:var(--primary);margin-right:6px;"></i> ISMT College</p>
+        <p><i class="fas fa-book" style="color:var(--primary);margin-right:6px;"></i> CET138 Full Stack Development</p>
+      </div>
+      <div class="col-md-4">
+        <h6>Quick Links</h6>
+        <a href="#">Home</a>
+        <a href="#">Full Stack Development</a>
+        <a href="#">HTML Fundamentals</a>
+        <a href="#">CSS Styling</a>
+        <a href="#">Bootstrap Framework</a>
+      </div>
+      <div class="col-md-4">
+        <h6>Learning Resources</h6>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN JavaScript</a>
+        <a href="https://www.w3schools.com/js/" target="_blank">W3Schools JavaScript</a>
+        <a href="https://javascript.info/" target="_blank">JavaScript.info</a>
+      </div>
+    </div>
+    <div class="copy">© 2024 Sanjog Thapa — CET138 Full Stack Development Course Project &nbsp;·&nbsp; Built with ❤️ using Bootstrap 5</div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="back.js"></script>
+</body>
+</html>
